@@ -1,0 +1,10 @@
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        ans=int((high-low)/2)
+        if low%2==0 and high%2==0:
+            ans==ans
+        elif low%2!=0 and high%2!=0:
+            ans=ans+1
+        else:
+            ans+=1
+        return ans
